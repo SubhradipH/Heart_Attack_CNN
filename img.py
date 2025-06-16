@@ -46,5 +46,5 @@ def crop_ecg_img(input_folder, output_folder="normal_leads"):
     print(f"Successfully processed {len(image_files)} images and extracted {len(box_coordinates)} leads per image.")
 
 if __name__ == "__main__":
-    input_folder_path = r"D:\CNN_H.A\ECG\ECG Images of Myocardial Infarction Patients (240x12=2880)"
+    input_folder_path = r"D:\CNN_H.A\ECG\Normal Person ECG Images (284x12=3408)"
     crop_ecg_img(input_folder_path)
