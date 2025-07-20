@@ -48,3 +48,4 @@ def crop_ecg_img(input_folder, output_folder="normal_leads"):
 if __name__ == "__main__":
     input_folder_path = r"D:\CNN_H.A\ECG\Normal Person ECG Images (284x12=3408)"
     crop_ecg_img(input_folder_path)
+#
