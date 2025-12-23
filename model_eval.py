@@ -9,7 +9,7 @@ MODEL_PATH = "best_ecg_cnn.h5"   # or "ecg_cnn_final.h5"
 IMG_SIZE = (160, 160)            # MUST be same as in train_model.py
 BATCH_SIZE = 32
 DATA_DIR = Path("data")          # base data folder
-# ==========================
+# =========================
 
 # 1. Load test dataset
 test_dir = DATA_DIR / "test"
